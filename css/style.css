@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* css for header info */
+.header-info{
+    background-color: #434f78;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-info .site-info{
+    color: #fff;
+    font-size: 1.02rem;
+    font-weight: 500;
+    margin-left: 2vw;
+}
+.header-info .site-info i{
+    color: #f3c93e;
+}
+.header-info .site-info span:hover{
+    color: #f3c93e;
+    cursor: pointer;
+}
+.header-info .site-info .mail_logo{
+    margin-left: 1vw;
+}
+
+    /* css for search bar */
+.search-bar input{
+    padding: 1.109vh 2vw;
+    border: 1px solid #fff;
+    border-radius: 5px 0px 0px 5px;
+}
+.search-bar button{
+    background-color: #f3c93e;
+    padding: 1.109vh 1vw;
+    border: 1px solid #f3c93e;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+.search-bar button i{
+    color: #fff;
+    font-size: 1rem;
+}
+
+    /* css for accounts and my cart */
+.header-info .site-cart-auth{
+    color: #fff;
+    font-size: 1.02rem;
+    font-weight: 500;
+    margin-right: 2vw;
+}
+.header-info .site-cart-auth i{
+    color: #f3c93e;
+}
+.header-info .site-cart-auth span a{
+    color: #fff;
+    text-decoration: none;
+}
+.header-info .site-cart-auth span a:hover{
+    color: #f3c93e;
+    cursor: pointer;
+}
+.header-info .site-cart-auth .my-accounts{
+    margin-right: 1vw;
+}
+/* end of css for header info */
+
+/* css for nav bar */
+.nav-bar{
+    background-color: #1c2956;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar .logo a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-left: 2vw;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.nav-bar ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 2vw;
+}
+.nav-bar ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.nav-bar ul li a:hover{
+    color: #f3c93e;
+}
+
+.burger{
+    display: none;
+}
+.burger div{
+    background-color: #fff;
+    width: 25px;
+    height: 3px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+/* end of css for nav bar */
+
+/* css for slider */
+.sliders{
+    background-color: rgb(250 247 247);
+    height: auto;
+    padding: 10vh 10vw 10vh 10vw;
+}
+.sliders .slider{
+    display: flex;
+}
+.sliders .slider .slider-header{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sliders .slider .slider-img{
+    width: 40%;
+}
+.sliders .slider .slider-header h1{
+    font-size: 43px;
+    font-weight: 900;
+}
+.sliders .slider .slider-header p{
+    color: #1c2956;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.sliders .slider .slider-header a{
+    background-color: #f3c93e;
+    width: 173px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 900;
+    color: #fff;
+    border: 2px solid #f3c93e;
+    border-radius: 4px;
+}
+.sliders .slider .slider-header a:hover{
+    background-color: rgb(250 247 247);
+    color: #f3c93e;
+}
+.sliders .slider .slider-img img{
+    width: 100%;
+}
+/* end of css for slider */
+
+/* css for products cards */
+.categories .products{
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 20px;
+}
+.categories .all-catrgory {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.categories .all-catrgory .category .category-img img{
+    width: 200px;
+}
+ .categories .all-catrgory .category .category-img{
+    background-color: rgb(236, 231, 231);
+    width: 250px;
+    display: flex;
+    justify-content: center;
+} 
+.categories .all-catrgory .category{
+    margin: 10px;
+    height: 276px;
+    box-shadow: 2px 2px 10px black;
+}
+.categories .all-catrgory .category .card-details h3{
+    margin-bottom: 5px;
+}
+.categories .all-catrgory .category .card-details p{
+    color: #1c2956;
+    margin-bottom: 15px;
+}
+.categories .all-catrgory .category .card-details a{
+    text-decoration: none;
+    border: 2px solid #1c2956;
+    color: #fff;
+    background-color: #1c2956;
+    padding: 7px;
+}
+.categories .all-catrgory .category .card-details a:hover{
+    background-color: #fff;
+    color: #1c2956;
+    transition: 0.5s
+}
+/* end of css for products cards */
+
+/* css for about section */
+.about-section{
+    background-color: #1c2956;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.about-section .about{
+    width: 50%;
+}
+.about-section .about h1{
+    margin-bottom: 15px;
+}
+.about-section .about .about-sec-para{
+    margin-bottom: 30px;
+}
+.about-section .about h1, .about-sec-para{
+    margin-left: 120px;
+    color: #fff;
+}
+.about-section .about a{
+    background-color: #f3c93e;
+    padding: 17px 50px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+    border-radius: 3px;
+    margin-left: 120px;
+    border: 2px solid #f3c93e;
+}
+.about-section .about a:hover{
+    background-color: transparent;
+    color: #f3c93e;
+    transition: 0.5s ease-in;
+}
+.about-section .about-img{
+    width: 50%;
+}
+.about-section .about-img img{
+    width: 100%;
+}
+/* end of css for about section */
+
+/* css for why us section */
+.why-us-section{
+    margin-bottom: 100px;
+}
+.why-us-section h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 31px;
+    font-weight: 900;
+}
+.why-us-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.why-us-cards{
+    margin: 5px;
+    text-align: center;
+    height: 200px;
+    box-shadow: 2px 2px 9px black;
+    width: 450px;
+}
+.why-us-section .why-us-card .why-us-cards .why-us-icon {
+    font-weight: 900;
+    font-size: 60px;
+    margin-top: 10px;
+}
+.why-us-section .why-us-card .why-us-cards:hover{
+    color: #f3c93e;
+}
+.why-us-section .why-us-card .why-us-cards h3{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.why-us-cards p{
+    color: #1c2956;
+    font-size: 15px;
+}
+/* end of css for why us section */
+
+/* css for info section */
+.info-section{
+    background-color: #1c2956;
+    padding: 95px 0 20px 0;
+}
+.info-section .containers{
+    height: auto;
+    margin: 0 5vw 0 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.info-section .containers .col1{
+    height: 200px;
+    width: 18vw;
+    margin: 20px;
+}
+.info-section .containers .col1 h1{
+    margin-bottom: 20px;
+    color: #fff;
+}
+.info-section .containers .col1 li, p{
+    list-style: none;
+    color: #fff;
+    margin-top: 10px;
+}
+.info-section .containers .col1 ul li{
+    list-style: none;
+}
+.info-section .containers .col1 ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.info-section .containers .col1 input{
+    height: 28px;
+    width: 193px;
+}
+.info-section .containers .col1 button{
+    margin-top: 5px;
+    background-color: #f3c93e;
+    height: 30px;
+    width: 115px;
+    border: none;
+    border-radius: 2px;
+}
+.info-section .containers .col1 .fab, .far{
+    color: #fff;
+    margin-top: 61px;
+    width: 46px;
+    font-size: 23px;
+}
+/* end of css for info section */
+
+/* css for footer section */
+footer{
+    background-color: #1c2956;
+    height: 50px;
+}
+footer .footer-line{
+    background-color: #fff;
+    width: 80vw;
+    height: 1px;
+    margin-left: 10vw;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* end of css for footer */

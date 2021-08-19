@@ -1,0 +1,132 @@
+/* css for responsive navbar */
+@media screen and (max-width:1400px){
+    .why-us-cards{
+        width: 300px;
+    }
+}
+@media screen and (max-width:1095px){
+    html{
+        font-size: 70%;
+    }
+    .site-info{
+        display: none;
+    }
+    .search-bar{
+        margin-left: 2vw;
+    }
+    .nav-links{
+        position: absolute;
+        right: 0;
+        top: 20vh;
+        background-color: #1c2956;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        visibility: hidden;
+    }
+    .nav-active{
+        visibility: visible;
+    }
+    .nav-links li{
+        height: 50px;        
+    }
+    .burger{
+        display: block;
+        margin-right: 2vw;
+        cursor: pointer;
+    }
+    .contact-links, .info, .userful-links, .newsletter{
+        width: 100px;
+    }
+    .info-section .containers .col1 .fab, .far{
+        color: #fff;
+        margin-top: 61px;
+        width: 30px;
+        font-size: 15px;
+    }
+    
+}
+@media screen and (max-width:950px){
+    .why-us-cards{
+        width: 200px;
+    }
+}
+@media screen and (max-width:900px){
+    .sliders .slider {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sliders .slider .slider-header{
+        width: 80%;
+    }
+    .sliders .slider .slider-img{
+        width: 66%;
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width:850px){
+    .info-section .containers .col1 input{
+        height: 28px;
+        width: 130px;
+    }
+}
+@media screen and (max-width:692px){
+    html{
+        font-size: 100%;
+    } 
+    .header-info{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header-info .search-bar{
+        margin-bottom: 10px;
+    }
+    .why-us-card{
+        flex-direction: column;
+        align-items: center;
+    }
+    .why-us-cards{
+        width: 70vw;
+    }
+    .info-section .containers{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .info-section .containers .col1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 77vw;
+    }
+    .info-section .containers .col1 input{
+        height: 35px;
+        width: 60vw;
+    }
+    .about-section{
+        flex-direction: column;
+    }
+    .about-section .about{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .about-section .about h1, p{
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+    .about-section .about a{
+        margin-left: 15px;
+    }
+    .about-section .about-img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:540px){
+        .info-section .containers .col1 input{
+            width: 70vw;
+        }
+}
+@media screen and (max-width:400px){
+    
+}
