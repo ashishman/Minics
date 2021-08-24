@@ -13,7 +13,7 @@
 
 <body>
     <!-- header info section -->
-    <div class="header-info">
+    <div class="header-info" id="home">
         <div class="site-info">
             <i class="fas fa-phone-alt"></i>
             <span>Call : +01 123455678990</span>
@@ -40,7 +40,7 @@
     <!-- navbar section -->
     <div class="nav-bar">
         <div class="logo">
-            <a href="#">Minics</a>
+            <a href="#">MiMi</a>
         </div>
 
         <div class="burger">
@@ -50,11 +50,11 @@
         </div>
 
         <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Categories</a></li>
-            <li><a href="#">Why Us</a></li>
-            <li><a href="#">Testimonials</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#whyus">Why Us</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
         </ul>
     </div>
     <!-- end of navbar section -->
@@ -77,104 +77,71 @@
     <!-- end of slider section -->
 
     <!-- product section -->
-    <div class="categories">
-        <h1 class="products">Our Products</h1>
-        <div class="all-catrgory">
-            <div class="category">
-                <div class="category-img">
-                    <img src="images/p1.png" alt="">
+    <div class="products-section" id="products">
+        <h1 class=" products-heading text-center">Products</h1>
+        <div class="products">
+            <!-- first product card -->
+            <div class="product">
+                <div class="product-inner">
+                    <div class="product-img">
+                        <img src="images/p1.png" alt="Camera">
+                    </div>
+                    <div class="product-desc">
+                        <h1 class="product-title">Canon A7</h1>
+                        <p class="product-details">This is a canon A7 made in america imported from america</p>
+                        <h3 class="product-price">$800</h3>
+                    </div>
                 </div>
-                <div class="card-details">
-                    <h3>Product Name</h3>
-                    <p>Price</p>
-                    <a href="#">Add to cart</a>
+                <div class="cart-section">
+                    <button class="cart-btn">ADD TO CART</button>
                 </div>
             </div>
+            <!-- second product card -->
 
-            <div class="category">
-                <div class="category-img">
-                    <img src="images/p1.png" alt="">
+            <!-- second product card -->
+            <div class="product">
+                <div class="product-inner">
+                    <div class="product-img">
+                        <img src="images/p2.png" alt="Camera">
+                    </div>
+                    <div class="product-desc">
+                        <h1 class="product-title">Canon A7</h1>
+                        <p class="product-details">This is a canon A7 made in america imported from america</p>
+                        <h3 class="product-price">$800</h3>
+                    </div>
                 </div>
-                <div class="card-details">
-                    <h3>Product Name</h3>
-                    <p>Price</p>
-                    <a href="#">Add to cart</a>
+                <div class="cart-section">
+                    <button class="cart-btn-ex">ADD TO CART</button>
                 </div>
             </div>
+            <!-- end of second card -->
 
-            <div class="category">
-                <div class="category-img">
-                    <img src="images/p1.png" alt="">
+            <!-- third product card -->
+            <div class="product">
+                <div class="product-inner">
+                    <div class="product-img">
+                        <img src="images/slider-img.png" alt="Camera">
+                    </div>
+                    <div class="product-desc">
+                        <h1 class="product-title">Canon A7</h1>
+                        <p class="product-details">This is a canon A7 made in america imported from america</p>
+                        <h3 class="product-price">$800</h3>
+                    </div>
                 </div>
-                <div class="card-details">
-                    <h3>Product Name</h3>
-                    <p>Price</p>
-                    <a href="#">Add to cart</a>
-                </div>
-            </div>
-
-            <div class="category">
-                <div class="category-img">
-                    <img src="images/p1.png" alt="">
-                </div>
-                <div class="card-details">
-                    <h3>Product Name</h3>
-                    <p>Price</p>
-                    <a href="#">Add to cart</a>
+                <div class="cart-section">
+                    <button class="cart-btn">ADD TO CART</button>
                 </div>
             </div>
-
-            <div class="category">
-                <div class="category-img">
-                    <img src="images/p1.png" alt="">
-                </div>
-                <div class="card-details">
-                    <h3>Product Name</h3>
-                    <p>Price</p>
-                    <a href="#">Add to cart</a>
-                </div>
-            </div>
-
-            <div class="category">
-                <div class="category-img">
-                    <img src="images/p1.png" alt="">
-                </div>
-                <div class="card-details">
-                    <h3>Product Name</h3>
-                    <p>Price</p>
-                    <a href="#">Add to cart</a>
-                </div>
-            </div>
-
-            <div class="category">
-                <div class="category-img">
-                    <img src="images/p1.png" alt="">
-                </div>
-                <div class="card-details">
-                    <h3>Product Name</h3>
-                    <p>Price</p>
-                    <a href="#">Add to cart</a>
-                </div>
-            </div>
-
-            <div class="category">
-                <div class="category-img">
-                    <img src="images/p1.png" alt="">
-                </div>
-                <div class="card-details">
-                    <h3>Product Name</h3>
-                    <p>Price</p>
-                    <a href="#">Add to cart</a>
-                </div>
-            </div>
+            <!-- end of third card -->
         </div>
     </div>
     <!-- end product section -->
 
-    <div class="about-section">
+    <div class="about-section" id="about">
         <div class="about">
             <h1>We Provide Best For You</h1>
-            <p class="about-sec-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, amet perferendis. Pariatur sunt,
+            <p class="about-sec-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, amet
+                perferendis. Pariatur sunt,
                 nostrum iste ut fugit sequi facilis praesentium delectus repudiandae, eveniet nam magni earum doloremque
                 odit dolorum voluptatibus.</p>
             <a href="#">Read More</a>
@@ -185,7 +152,7 @@
     </div>
 
     <!-- Why us section -->
-    <div class="why-us-section">
+    <div class="why-us-section" id="whyus">
         <h1>Why Choose Us</h1>
         <div class="why-us-card">
             <div class="why-us-cards">
@@ -234,10 +201,10 @@
             <div class="col1">
                 <h1>Useful Link</h1>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Product</a></li>
-                    <li><a href="#">Why Us</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#products">Product</a></li>
+                    <li><a href="#whyus">Why Us</a></li>
                     <li><a href="#">Testimonials</a></li>
                 </ul>
             </div>
@@ -263,7 +230,7 @@
     <footer>
         <div class="footer-line"></div>
         <p>
-            &copy; 2021 All Rights Reserved By Free Html Templates
+            &copy; 2021 All Rights Reserved By MIMI
         </p>
     </footer>
     <!-- end footer section -->

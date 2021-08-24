@@ -5,9 +5,9 @@
     }
 }
 @media screen and (max-width:1095px){
-    html{
+    /* html{
         font-size: 70%;
-    }
+    } */
     .site-info{
         display: none;
     }
@@ -72,9 +72,9 @@
     }
 }
 @media screen and (max-width:692px){
-    html{
+    /* html{
         font-size: 100%;
-    } 
+    }  */
     .header-info{
         flex-direction: column;
         justify-content: center;
@@ -111,9 +111,13 @@
         width: 100%;
         margin-bottom: 60px;
     }
-    .about-section .about h1, p{
+    .about-section .about h1, .about-sec-para{
         margin-left: 15px;
         margin-top: 20px;
+    }
+    .about-section .about h1, .about-sec-para {
+        margin-left: 15px;
+        color: #fff;
     }
     .about-section .about a{
         margin-left: 15px;
